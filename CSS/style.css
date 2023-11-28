@@ -1,0 +1,185 @@
+body {
+    font-family: 'Gabarito', cursive;
+    background-color: rgb(5, 27, 27);
+}
+
+.contact {
+    border-radius: 20px;
+    border-color: white;
+    text-decoration: none;
+    color: black;
+}
+
+.nav-head {
+    color: rgb(199, 76, 76);
+    text-decoration: none;
+}
+
+.nav-link :hover {
+    color: rgb(38, 153, 66);
+}
+
+.main-head {
+    font-size: 2.9rem;
+}
+
+.devkit {
+    color: rgb(199, 76, 76);
+}
+
+.page-one-img {
+    height: 31rem;
+}
+
+.second-text {
+    font-size: 2.3rem;
+}
+
+.second-img {
+    height: 30rem;
+}
+
+.second-page {
+    background-color: rgb(4, 20, 27);
+}
+
+.second-right-side {
+    color: indianred;
+}
+
+.second-text-success {
+    color: rgb(199, 76, 76);
+}
+
+.second-text-par {
+    font-family: 'Lato', sans-serif;
+    letter-spacing: 0.05rem;
+}
+
+.services-page {
+    background-color: rgb(5, 27, 27);
+}
+
+.zoom-on-hover {
+    overflow: hidden;
+    width: 22rem;
+    height: 20rem;
+    border-radius: .5rem;
+}
+
+.zoom-on-hover img {
+    width: 100%;
+    height: 12rem;
+    cursor: pointer;
+    transition: .5s ease;
+}
+
+.zoom-on-hover:hover {
+    scale: 106%;
+}
+
+.card-title {
+    color: rgb(27, 129, 52);
+}
+
+.under-card {
+    font-size: 1.2rem;
+    color: indianred;
+}
+
+.under-card:hover {
+    scale: 102%;
+}
+
+.succes {
+    color: rgb(3, 133, 24);
+}
+
+.recent-works {
+    background-color: rgb(3, 17, 6);
+}
+
+.work-layer a {
+    text-decoration: none;
+    width: 1.5rem;
+    color: black;
+}
+
+.work-layer a i {
+    font-size: 1.5rem;
+}
+
+.works-box img {
+    width: 100%;
+    transition: .5s ease;
+}
+
+.works-box:hover img {
+    transform: scale(1.05);
+}
+
+.footer-bar {
+    background-color: rgba(11, 15, 3, 0.397);
+}
+
+.footer-first {
+    text-decoration: none;
+    list-style-type: none;
+}
+
+.footer-li {
+    list-style-type: none;
+}
+
+.footer-li a {
+    text-decoration: none;
+}
+
+.footer-li a :hover {
+    color: green;
+}
+
+.social-media a .bxl-facebook-circle,
+.bxl-instagram-alt,
+.bxl-linkedin,
+.bxl-gmail {
+    color: white;
+}
+
+.social-media a .bxl-facebook-circle:hover {
+    color: rgba(35, 35, 241, 0.664);
+}
+
+.social-media a .bxl-instagram-alt:hover {
+    color: rgb(173, 59, 59);
+}
+
+.social-media a .bxl-linkedin:hover {
+    color: rgba(66, 66, 180, 0.486);
+}
+
+.social-media a .bxl-gmail:hover {
+    color: brown;
+}
+
+/* about-page */
+
+.get-in-touch {
+    text-decoration: none;
+}
+
+.get-in-touch:hover {
+    color: indianred;
+}
+
+.in-associate {
+    background-color: rgba(2, 24, 6, 0.212);
+}
+
+.img-partner {
+    border-radius: 1rem;
+}
+
+.img-partner:hover {
+    background-color: white;
+}

@@ -1,0 +1,395 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Devkit.</title>
+
+    <link rel="icon" type="image/x-icon" href="Img/webicon.png">
+    <!-- bootstrap -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!-- boxicons -->
+    <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+    <!-- fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Gabarito:wght@800&family=Poppins&display=swap"
+        rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Lato:wght@700&display=swap" rel="stylesheet">
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@24,400,0,0" />
+    <link rel="stylesheet" href="CSS/style.css">
+
+</head>
+
+
+<body>
+    <nav class="navbar navbar-expand-lg fixed-top" style="background-color: rgb(5, 49, 49);">
+        <div class="container mt-3 pb-2">
+            <a class="navbar-brand nav-head" href="index.html">
+                <h2>Devkit.</h2>
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav ms-1">
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-white nav-hover" aria-current="page" href="#"><span>Home</span></a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-white nav-hover" href="#about"><span>About</span></a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-white nav-hover" href="#services"><span>Services</span></a>
+                    </li>
+                    <li class="nav-item ms-4">
+                        <a class="nav-link text-white nav-hover" href="#projects"><span>Projects</span></a>
+                    </li>
+                </ul>
+                <a href="contactUs.html" class="ms-auto "><button type="button"
+                        class="btn btn-light ps-4 pe-4 pt-2 pb-2 contact">Contact Us</button></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- main body first page -->
+
+    <div class="container pt-5 pb-1 mt-5">
+        <div class="mt-5">
+            <div class="row mt-3">
+                <div class="col-lg-6 pb-5">
+                    <h1 class="text-white main-head">
+                        <b>Welcome to <span class="devkit">Devkit.</span><br>
+                            Develop anything.
+                        </b>
+                    </h1>
+                    <p class="text-white pt-2 pb-4"
+                        style="font-family: Verdana, Geneva, Tahoma, sans-serif; font-weight: 900;">
+                        Build a beautiful, modern website with flexible <br>
+                        components built from scratch
+                    </p>
+
+                    <!-- contact -->
+
+                    <a href="contactUs.html"><button type="button" class="btn btn-success">Let's Work
+                            Together</button></a>
+
+                </div>
+
+                <div class="col-lg-6">
+                    <img src="Img/bg.svg" alt="devs" class="img-fluid ms-4 page-one-img">
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- About second page -->
+    <main>
+        <section id="about">
+            <div class="container-fluid pt-5 pb-5 second-page">
+                <div class="container">
+                    <div class="row">
+                        <div class="col-lg-6">
+                            <img src="Img/devs1.svg" alt="dev" class="img-fluid second-img">
+                        </div>
+
+                        <div class="col-lg-6 pb-5">
+                            <h1 class="second-text text-white mt-auto pb-2 pt-5">
+                                Innovation & Expertise in <br>
+                                Crafting your <span class="second-text-success">Success!</span>
+                            </h1>
+
+                            <p class="second-text-par text-white text-justify pb-3">
+                                Devkit. a gen next IT company in India that turns
+                                creative ideas into incredible solutions! Devkit. was born out of a vision of a group of
+                                futuristic IT professionals with a passion for creating successful web solutions and
+                                mobile
+                                applications. We are also into effective digital marketing for our clients. Today,
+                                Devkit.
+                                has evolved into one of the best IT companies in India in a short span of time.
+                            </p>
+
+                            <a href="about.html">
+                                <buttun class="btn btn-danger">Learn More</buttun>
+                            </a>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- services third page -->
+
+    <main>
+        <section id="services">
+            <div class="container-fluid pt-5 pb-2 services-page">
+                <div class="container">
+                    <h2 class="text-center text-white pb-5">Services</h2>
+                    <div class="row">
+                        <div class="col-lg-4 pb-4">
+                            <!-- 1 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/web des.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Web Design</h5>
+                                    <p class="card-text text-center">
+                                        We create visually stunning and user-friendly websites that leave a lasting
+                                        impression
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-4">
+                            <!-- 2 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/web dev.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Web Development</h5>
+                                    <p class="card-text text-center">
+                                        Our experts build robust and scalable web solutions aligned with your business
+                                        goals
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-4">
+                            <!-- 3 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/mobile app.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Mobile App Development</h5>
+                                    <p class="card-text text-center">We bring your app idea to life with seamless user
+                                        experiences on
+                                        iOS and Andriod
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-4 ">
+                            <!-- 4 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/education.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Educational Websites</h5>
+                                    <p class="card-text text-center">
+                                        We create educational websites that offer a seamless learning experience
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-4">
+                            <!-- 5 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/blog.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">Blog Websites</h5>
+                                    <p class="card-text text-center">
+                                        We develop captivating blog websites with valuable content and customizable
+                                        layouts
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col-lg-4 pb-5">
+                            <!-- 6 -->
+                            <div class="card shadow-lg rounded zoom-on-hover" onclick="return GetQuote()">
+                                <img src="Img/ecommerce.svg" class="card-img-top img-fluid" alt="...">
+                                <div class="card-body">
+                                    <h5 class="card-title text-center">E-commerce Websites</h5>
+                                    <p class="card-text text-center">
+                                        We build e-commerce websites that drive sales and provide seamless shopping
+                                        experience
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <!--  get quote -->
+
+                        <a href="GetQuote.html" class="text-center text-bold under-card pb-5">Get a Quote</a>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- recent works fourth page -->
+
+    <main>
+        <section id="projects"></section>
+    </main>
+    <div class="container-fluid pt-4 pb-3 recent-works">
+        <div class="container">
+            <h2 class="text-white text-center pb-5">
+                Recent Works
+            </h2>
+            <div class="row">
+                <div class="col-lg-4 pb-4">
+                    <!-- 1 -->
+                    <div class="card text-success-emphasis works-box" style="max-width: 19rem;">
+                        <img src="Img/pinterest.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center">Pinterest</h4>
+                            <p class="text-center">
+                                Visual inspiration boards for DIY and creative projects<br>
+                                <a href="https://in.pinterest.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pb-4">
+                    <div class="card text-success-emphasis works-box" style="max-width: 19rem;">
+                        <!-- 2 -->
+                        <img src="Img/reddit.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center">Reddit</h4>
+                            <p class="text-center">Diverse communities, endless discussions, and cat memes galore<br>
+                                <a href="https://www.reddit.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pb-4">
+                    <div class="card text-success-emphasis works-box" style="max-width: 19rem;">
+                        <!-- 3 -->
+                        <img src="Img/ted.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center">TED</h4>
+                            <p class="text-center">Inspirational talks on a wide range of topics by experts<br>
+                                <a href="https://www.ted.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <div class="row">
+                <div class="col-lg-4 pb-4">
+                    <div class="card text-success-emphasis  works-box" style="max-width: 19rem;">
+                        <!-- 4 -->
+                        <img src="Img/zillow.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center">Zillow</h4>
+                            <p class="text-center">Real estate listings and home value estimates for buyers<br>
+                                <a href="https://www.zillow.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pb-4">
+                    <div class="card text-success-emphasis works-box" style="max-width: 19rem;">
+                        <!-- 5 -->
+                        <img src="Img/kickstarter.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center">Kickstarter</h4>
+                            <p class="text-center">Crowd funding platform for innovative ideas and creative projects<br>
+                                <a href="https://www.kickstarter.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col-lg-4 pb-5">
+                    <div class="card text-success-emphasis works-box" style="max-width: 19rem;">
+                        <!-- 6 -->
+                        <img src="Img/webmd.png" alt="work">
+                        <div class="work-layer">
+                            <h4 class="text-center pt-2">WebMD</h4>
+                            <p class="text-center">
+                                Health information source, diagnosis suggestions, and symptom checker<br>
+                                <a href="https://www.webmd.com/"><i class="bx bx-link-external pt-2"></i></a>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- footer -->
+
+    <div class="container-fluid pt-3 pb-2 footer-bar">
+        <div class="container">
+            <div class="row">
+                <div class="col-lg-3">
+                    <a class="nav-head" href="#">
+                        <h2>Devkit.</h2>
+                    </a>
+                </div>
+                <div class="col-lg-2">
+                    <ul class="footer-li">
+                        <h4 class="text-success">Quick Links</h4>
+                        <a href="#" class="text-white">
+                            <li>Home</li>
+                        </a>
+                        <a href="#about" class="text-white">
+                            <li>About</li>
+                        </a>
+                        <a href="#services" class="text-white">
+                            <li>Services</li>
+                        </a>
+                        <a href="#" class="text-white">
+                            <li>Blog</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <div class="col-lg-3">
+                    <ul class="footer-li pt-3">
+                        <a href="#" class="text-white">
+                            <li>Privacy Policy</li>
+                        </a>
+                        <a href="#" class="text-white">
+                            <li>Resources</li>
+                        </a>
+                        <a href="#" class="text-white">
+                            <li>Admin Guide</li>
+                        </a>
+                        <a href="#" class="text-white">
+                            <li>FAQ</li>
+                        </a>
+                    </ul>
+                </div>
+
+                <!-- social media -->
+
+                <div class="col-lg-2 ms-auto social-media">
+                    <ul style="list-style-type: none;">
+                        <h4 class="text-success">Follow Us</h4>
+                        <li>
+                            <a href="https://www.facebook.com/"><i class='bx bxl-facebook-circle'></i></a>
+                            <a href="https://www.instagram.com/"><i class='bx bxl-instagram-alt'></i></a>
+                            <a href="https://in.linkedin.com/"><i class='bx bxl-linkedin'></i></a>
+                            <a href=""><i class='bx bxl-gmail'></i></a>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="container-fluid pb-1 text-center text-secondary footer-bar pt-1">
+        <hr>
+        Copyright &copy; 2023 Devkit. LLP - All rights reserved.
+    </div>
+
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.11.8/dist/umd/popper.min.js"
+        integrity="sha384-I7E8VVD/ismYTF4hNIPjVp/Zjvgyol6VFvRkX/vR+Vc4jQkC+hVqc2pM8ODewa9r"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.min.js"
+        integrity="sha384-BBtl+eGJRgqQAUMxJ7pMwbEyER4l1g+O15P+16Ep7Q9Q+zqX6gSbd85u4mG4QzX+"
+        crossorigin="anonymous"></script>
+    <script src="script.js"></script>
+</body>
+
+</html>
