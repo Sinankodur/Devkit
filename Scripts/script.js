@@ -43,7 +43,3 @@ function validateForm() {
         return true
     }
 }
-
-function GetQuote() {
-    window.open('http://127.0.0.1:5501/Project/GetQuote.html')
-}
