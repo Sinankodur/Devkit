@@ -9,7 +9,7 @@ function validateForm() {
     let numbValid = document.forms['QForm']['num'].value;
 
     const RegExpname = /[^a-z A-Z]/;
-    const RegExpnum = /^[6-9]\d{9}$/;
+    const RegExpnum = /^(?:(?:\+|0{0,2})91(\s*|[\-])?|[0]?)?([6789]\d{2}([ -]?)\d{3}([ -]?)\d{4})$/;
     const RegExpmail = /^[a-zA-Z0-9.!#$%&'*+/=?^_`{|}~-]+@[a-zA-Z0-9-]+(?:\.[a-zA-Z0-9-]+)*$/;
 
     if (RegExpname.test(fnameValid)) {
